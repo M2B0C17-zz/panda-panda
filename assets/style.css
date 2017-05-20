@@ -1,24 +1,24 @@
 body{
   font-family: 'Raleway', sans-serif;
   margin: 0; /* para que nuestro navbar se ajuste al borde del navegador */
-  background-color: #607D8B;
+  background-color: #9B96A3;
 }
 
 /* Menú */
 
-ul{
+header.enlaces ul{
   list-style: none; /* para sacarle el estilo predefinido con el punto que tienen las listas */
   margin: 0; /* cero margen */
   padding: 0px; /* relleno : 0 */
   overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
-  background-color: #455A64 /* color de fondo */
+  background-color: #010000; /* color de fondo */
 }
 
-ul li{
+header.enlaces ul li{
   display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
 }
 
-ul li a{
+header.enlaces ul li a{
   display: inline-block;
   color: white; /* color al texto */
   text-align: center;
@@ -27,26 +27,70 @@ ul li a{
 }
 
 /* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
-li a:hover{
+header.enlaces li a:hover{
   background-color: #607D8B;
   color: white;
 }
 
 /* Fotos */
-.bookbuilding{
+div .bookbuilding{
 	background-size: cover;
 	background-position: center;
-	padding: 20px 10px; /* margen interno de la caja que contiene las iamgenes */
+	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
 }
 
-#fotosEncua .bookbuilding #imag1{
-  background: url('../img/fot1.jpg');
+/* fotos tramo 1 */
+
+#imag1{
+    background: url('../img/fot1.jpg');
+}
+
+#imag2{
+    background: url('../img/fot2.jpg');
+}
+
+#imag3{
+    background: url('../img/fot3.jpg');
+}
+
+#imag4{
+    background: url('../img/fot4.jpg');
+}
+
+#fotosEncua .bookbuilding #imag1, #fotosEncua .bookbuilding #imag2, #fotosEncua .bookbuilding #imag3, #fotosEncua .bookbuilding #imag4{
   height: 200px; /* alto */
   width: 200px; /* ancho */
-  margin: auto;
-  display: block;
   background-size: cover; /* especifica el tamaño de fondo de la imagen */
   background-position: center; /* especifica la posicion del fondo */
   padding: 5px 30px 5px 30px;
   border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
+/* menù 2 */
+
+.enlaces2 ul{
+  display: flex;
+  overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
+  background-color:  #010000; /* color de fondo */
+}
+
+.enlaces2 ul li{
+  display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
+}
+
+.enlaces2 ul li a{
+  display: inline-block;
+  color: white; /* color al texto */
+  text-align: center;
+  padding: 26px;
+  text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+}
+
+/* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
+.enlaces2 li a:hover{
+  background-color: #9B96A3;
+  color: white;
 }
