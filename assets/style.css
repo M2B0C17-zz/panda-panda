@@ -28,7 +28,7 @@ header.enlaces ul li a{
 
 /* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
 header.enlaces li a:hover{
-  background-color: #607D8B;
+  background-color: #9B96A3;
   color: white;
 }
 
@@ -69,23 +69,93 @@ div .bookbuilding{
   margin: 22px; /* espaciado de cajas */
 }
 
+/* fotos tramo 2 */
+div .bookbuilding2{
+	background-size: cover;
+	background-position: center;
+	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
+  padding: 0 300px;
+}
+
+#imag5{
+    background: url('../img/fot5.jpg');
+}
+
+#imag6{
+    background: url('../img/fot6.jpg');
+}
+
+#fotosEncua .bookbuilding2 #imag5, #fotosEncua .bookbuilding2 #imag6{
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
+/* fotos tramo 3 */
+div .bookbuilding3{
+	background-size: cover;
+	background-position: center;
+	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
+}
+
+#imag7{
+    background: url('../img/fot7.jpg');
+}
+
+#imag8{
+    background: url('../img/fot8.jpg');
+}
+
+#imag9{
+    background: url('../img/fot9.jpg');
+}
+
+#imag10{
+    background: url('../img/fot10.jpg');
+}
+
+#fotosEncua .bookbuilding3 #imag7, #fotosEncua .bookbuilding3 #imag8, #fotosEncua .bookbuilding3 #imag9, #fotosEncua .bookbuilding3 #imag10{
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
 /* menù 2 */
+.enlaces2 {
+    text-align: center;
+    /*display: flex; - caja flexible (adapatabilidad) */
+    /*flex-direction: row-reverse; - flex-direction nos permite decirle a las cajas, la direccion donde queremos que este. row-reverse = fila que invertida de su posicion original */
+    padding: 0 200px;
+}
 
 .enlaces2 ul{
-  display: flex;
   overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
-  background-color:  #010000; /* color de fondo */
+  background-color: #010000; /* color de fondo */
+  display: inline-block;
 }
 
 .enlaces2 ul li{
   display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
+  margin: 0 45px 0 45px;
 }
 
-.enlaces2 ul li a{
+.enlaces2 ul li a {
   display: inline-block;
   color: white; /* color al texto */
   text-align: center;
-  padding: 26px;
+  padding: 20px;
   text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
 }
 
@@ -94,3 +164,5 @@ div .bookbuilding{
   background-color: #9B96A3;
   color: white;
 }
+
+/* texto1 */
