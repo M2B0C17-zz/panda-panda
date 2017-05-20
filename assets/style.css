@@ -1,0 +1,35 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0; /* para que nuestro navbar se ajuste al borde del navegador */
+  background-color: #A8C6D1;
+}
+
+/* Menú */
+
+ul{
+  list-style: none; /* para sacarle el estilo predefinido con el punto que tienen las listas */
+  margin: 0; /* cero margen */
+  padding: 0px; /* relleno : 0 */
+  overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
+  background-color: #7F969E; /* color de fondo */
+}
+
+ul li{
+  display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
+}
+
+ul li a{
+  display: inline-block;
+  color: #C2D3D9; /* color al texto */
+  text-align: center;
+  padding: 26px;
+  text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+}
+
+/* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
+li a:hover{
+  background-color: #364B52;
+  color: #C2D3D9;
+}
+
+/*  */
