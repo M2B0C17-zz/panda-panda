@@ -32,4 +32,21 @@ li a:hover{
   color: white;
 }
 
-/*  */
+/* Fotos */
+.bookbuilding{
+	background-size: cover;
+	background-position: center;
+	padding: 20px 10px; /* margen interno de la caja que contiene las iamgenes */
+}
+
+#fotosEncua .bookbuilding #imag1{
+  background: url('../img/fot1.jpg');
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  margin: auto;
+  display: block;
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+}
