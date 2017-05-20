@@ -166,3 +166,17 @@ div .bookbuilding3{
 }
 
 /* texto1 */
+.textosEnColumnas{ /* usamos prefijos especiales para la realización de las columnas */
+  -webkit-column-count: 2; /* define la cantidad de columnas que se quieren colocar */
+  -webkit-column-gap: 50px; /* Nos permite definir el espacio entre columnas */
+  -webkit-column-rule: 1px dotted white; /* linea de separación entre columnas */
+}
+
+.textulio{
+  font-size: 15px;
+  font-weight: 600;
+  color: #393845;
+  line-height: 17px; /* interlineado de texto */
+  word-spacing: 5px; /* espacio entre palabras */
+  text-align: justify;
+}
