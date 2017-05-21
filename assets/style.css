@@ -36,12 +36,12 @@ header.enlaces li a:hover{
 div .bookbuilding{
 	background-size: cover;
 	background-position: center;
-	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+	padding: 5px 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
   display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
 }
 
+/* X */
 span{
-  color: black;
   font-size: 20px;
   font-weight: bolder;
   width: 190px;
@@ -49,6 +49,10 @@ span{
   flex-direction: row-reverse;
   padding: 0 30px 0 30px;
   margin: 0;
+}
+
+.eventX{
+  text-decoration: none;
 }
 
 /* fotos tramo 1 */
@@ -83,10 +87,9 @@ span{
 /* fotos tramo 2 */
 div .bookbuilding2{
 	background-size: cover;
-	background-position: center;
-	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+	padding: 0 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
   display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
-  padding: 0 300px;
+  padding: 0 17px;
 }
 
 #imag5{
@@ -112,7 +115,7 @@ div .bookbuilding2{
 div .bookbuilding3{
 	background-size: cover;
 	background-position: center;
-	padding: 20px 20px; /* margen interno de la caja que contiene las iamgenes */
+	padding: 0 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
   display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
 }
 
