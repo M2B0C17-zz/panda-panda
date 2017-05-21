@@ -45,6 +45,7 @@ span{
   font-size: 20px;
   font-weight: bolder;
   width: 190px;
+  color: black;
   display: flex;
   flex-direction: row-reverse;
   padding: 0 30px 0 30px;
