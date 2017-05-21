@@ -40,6 +40,17 @@ div .bookbuilding{
   display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
 }
 
+span{
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 190px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 30px 0 30px;
+  margin: 0;
+}
+
 /* fotos tramo 1 */
 
 #imag1{
@@ -168,8 +179,10 @@ div .bookbuilding3{
 /* texto1 */
 .textosEnColumnas{ /* usamos prefijos especiales para la realización de las columnas */
   -webkit-column-count: 2; /* define la cantidad de columnas que se quieren colocar */
-  -webkit-column-gap: 50px; /* Nos permite definir el espacio entre columnas */
-  -webkit-column-rule: 1px dotted white; /* linea de separación entre columnas */
+  -webkit-column-gap: 10px; /* Nos permite definir el espacio entre columnas */
+  -webkit-column-rule: 1px dotted white; /* linea dotted (puntitos) de separación entre columnas */
+  display: inline-block;
+  margin: 20px 0 30px 215px;
 }
 
 .textulio{
@@ -179,4 +192,28 @@ div .bookbuilding3{
   line-height: 17px; /* interlineado de texto */
   word-spacing: 5px; /* espacio entre palabras */
   text-align: justify;
+}
+
+.texUno{
+  padding: 10px 30px 0 0;
+  width: 300px;
+  margin: 40px;
+}
+
+.texDos{
+  padding: 10px;
+  width: 300px;
+  margin: 40px;
+  float: left;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  border-color: blue;
+  padding: 100px 0 30px 0;
+  display: block;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
 }
